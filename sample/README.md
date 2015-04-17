@@ -83,7 +83,7 @@ INSERT INTO tweets (body) VALUES ('こんばんは');
 
 ## **(260)** データベースへの接続
 
-「データベースの準備」で作成したデータベースとユーザ，パスワードを`database_conf.php`に書いておく。
+「データベースの準備」で作成したデータベースとユーザ，パスワードを`database_conf.php`に書いておく。`h.php`を作る。
 
 **`connect.php`を実行し，エラーにならなければ成功。**
 
@@ -105,7 +105,7 @@ INSERT INTO tweets (body) VALUES ('こんばんは');
 
 ### **(261)** データの読み取り2
 
-「こん」を含むつぶやきだけを表示する`showcon.php`を作る。本質は，`SELECT * FROM tweets WHERE body LIKE '%こん%"`である。
+「こん」を含むつぶやきだけを表示する`showcon.php`を作る。本質は，`SELECT * FROM tweets WHERE body LIKE '%こん%'`である。
 
 **「こん」を含むつぶやきがすべて表示されれば成功。**
 
