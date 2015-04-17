@@ -141,6 +141,15 @@ INSERT INTO tweets (body) VALUES ('こんばんは');
 
 略
 
+## 反復練習
+
+アプリを削除する。
+
+1. phpMyAdminで`DROP USER testuser@localhost;`として、MySQLのユーザを削除する。
+1. `htdocs/sample`を削除する。
+
+もう一度はじめからやってみる。
+
 ## 発展
 
 複数ユーザのつぶやきを記録するためにはどうすればいいだろうか。データベース，PHPスクリプトのどちらも修正が必要である。
